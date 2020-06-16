@@ -24,23 +24,11 @@ public class OrderResource {
 	public ResponseEntity<List<Order>> findAll() {
 		List<Order> list = service.findAll();
 		return ResponseEntity.ok().body(list);
-
 	}
 	
-	// Parametro id indica que será aceito um parâmetro dentro da URL.
 	@GetMapping(value = "/{id}")
 	public ResponseEntity<Order> findById(@PathVariable Long id) {
 		Order obj = service.findById(id);
 		return ResponseEntity.ok().body(obj);
 	}
-
-//	Testing H2
-//	@GetMapping
-//	public ResponseEntity<Order> findAll2() {
-//		Order u = new User (1L, "Maria", "Maria@gmail.com", "99999999", "123456");
-//		return ResponseEntity.ok().body(u);
-//	
-//	}
-	
-
 }

@@ -24,7 +24,6 @@ public class UserResource {
 	public ResponseEntity<List<User>> findAll() {
 		List<User> list = service.findAll();
 		return ResponseEntity.ok().body(list);
-
 	}
 	
 	// Parametro id indica que será aceito um parâmetro dentro da URL.
