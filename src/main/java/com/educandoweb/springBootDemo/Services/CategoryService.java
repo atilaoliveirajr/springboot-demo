@@ -1,4 +1,4 @@
-package com.educandoweb.springBootDemo.Services;
+package com.educandoweb.springBootDemo.services;
 
 import java.util.List;
 import java.util.Optional;
