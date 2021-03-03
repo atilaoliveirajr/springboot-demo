@@ -598,10 +598,10 @@ Bellow is an example that shows how the API will behave and the vebs that it wil
 }
 ```
 
-## Requirements (No Docker)
+## Requirements
 - Java (+11)
 - Maven (+3)
-- [WebServiceWithSpringBootAndHibernate-demo](https://github.com/Guergeiro/jdbc-rmi-server)
+- Postman
 
 ## By
-[Átila Oliveira](https://www.linkedin.com/in/%C3%A1tila-oliveira-jr-60869319a/)
+[Átila Oliveira](https://www.linkedin.com/in/atila-oliveira-jr-60869319a/)
